@@ -122,32 +122,32 @@ class _Screen1State extends State<Screen1> {
 
             const SizedBox(height: 20),
 
-            // Background color indicator
-            Container(
-              padding: const EdgeInsets.all(16),
-              decoration: BoxDecoration(
-                border: Border.all(color: Colors.grey),
-                borderRadius: BorderRadius.circular(8),
-              ),
-              child: Column(
-                children: [
-                  const Text(
-                    'Current Background Color:',
-                    style: TextStyle(fontWeight: FontWeight.bold),
-                  ),
-                  const SizedBox(height: 8),
-                  Container(
-                    width: 100,
-                    height: 30,
-                    decoration: BoxDecoration(
-                      color: _backgroundColor,
-                      border: Border.all(color: Colors.black),
-                      borderRadius: BorderRadius.circular(4),
-                    ),
-                  ),
-                ],
-              ),
-            ),
+            // // Background color indicator
+            // Container(
+            //   padding: const EdgeInsets.all(16),
+            //   decoration: BoxDecoration(
+            //     border: Border.all(color: Colors.grey),
+            //     borderRadius: BorderRadius.circular(8),
+            //   ),
+            //   child: Column(
+            //     children: [
+            //       const Text(
+            //         'Current Background Color:',
+            //         style: TextStyle(fontWeight: FontWeight.bold),
+            //       ),
+            //       const SizedBox(height: 8),
+            //       Container(
+            //         width: 100,
+            //         height: 30,
+            //         decoration: BoxDecoration(
+            //           color: _backgroundColor,
+            //           border: Border.all(color: Colors.black),
+            //           borderRadius: BorderRadius.circular(4),
+            //         ),
+            //       ),
+            //     ],
+            //   ),
+            // ),
           ],
         ),
       ),
