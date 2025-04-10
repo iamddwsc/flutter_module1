@@ -26,7 +26,7 @@ class _Screen1State extends State<Screen1> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
-              'You have pushed the button this many times:',
+              'Press the button to increment the counter:',
             ),
             // Display the counter value
             Text(
